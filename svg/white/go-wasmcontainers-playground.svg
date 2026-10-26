@@ -1,0 +1,11 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="playground">
+  <!-- the org glyph (a ribbed container with the WebAssembly notch), shrunk above a name plate -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 50H117A11 11 0 0 0 139 50H168A10 10 0 0 1 178 60V102A10 10 0 0 1 168 112H88A10 10 0 0 1 78 102V60A10 10 0 0 1 88 50Z"/>
+    <path d="M100 74V96"/>
+    <path d="M128 80V96"/>
+    <path d="M156 74V96"/>
+  </g>
+  <rect x="52" y="146" width="152" height="48" rx="14" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+  <text x="128" y="177" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-weight="700" font-size="24" fill="#FFFFFF">playground</text>
+</svg>
