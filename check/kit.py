@@ -15,7 +15,8 @@ import sys
 
 # The organisation's mark, and each repository's derivative (the org glyph
 # over a name plate). Every one carries the whole matrix.
-SUBJECTS = ["go-wasmcontainers", "go-wasmcontainers-engine", "go-wasmcontainers-playground", "go-wasmcontainers-dashboard"]
+SUBJECTS = ["go-wasmcontainers", "go-wasmcontainers-engine", "go-wasmcontainers-playground", "go-wasmcontainers-dashboard",
+            "go-wasmcontainers-build", "go-wasmcontainers-compose", "go-wasmcontainers-shell", "go-wasmcontainers-gpu"]
 SIZES = [16, 32, 48, 64, 128, 256, 512, 1024]
 errors = []
 

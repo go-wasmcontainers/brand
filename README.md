@@ -2,7 +2,7 @@
 
 Official logos for the **go-wasmcontainers** organization.
 
-<img src="avatar/go-wasmcontainers.png" width="160" alt="go-wasmcontainers"> <img src="avatar/go-wasmcontainers-engine.png" width="160" alt="go-wasmcontainers/engine"> <img src="avatar/go-wasmcontainers-playground.png" width="160" alt="go-wasmcontainers/playground"> <img src="avatar/go-wasmcontainers-dashboard.png" width="160" alt="go-wasmcontainers/dashboard">
+<img src="avatar/go-wasmcontainers.png" width="160" alt="go-wasmcontainers"> <img src="avatar/go-wasmcontainers-engine.png" width="160" alt="go-wasmcontainers/engine"> <img src="avatar/go-wasmcontainers-playground.png" width="160" alt="go-wasmcontainers/playground"> <img src="avatar/go-wasmcontainers-dashboard.png" width="160" alt="go-wasmcontainers/dashboard"> <img src="avatar/go-wasmcontainers-build.png" width="160" alt="go-wasmcontainers/build"> <img src="avatar/go-wasmcontainers-compose.png" width="160" alt="go-wasmcontainers/compose"> <img src="avatar/go-wasmcontainers-shell.png" width="160" alt="go-wasmcontainers/shell"> <img src="avatar/go-wasmcontainers-gpu.png" width="160" alt="go-wasmcontainers/gpu">
 
 ## The mark
 
@@ -17,16 +17,16 @@ every mark in that family shares: a 256 px plate at `rx="56"`, and a white line
 glyph with round caps and joins (`stroke-width="13"`, the width most of the
 family uses).
 
-`go-wasmcontainers-engine`, `go-wasmcontainers-playground` and
-`go-wasmcontainers-dashboard` are the marks of the `engine`, `playground` and
-`dashboard` repositories: the same glyph, smaller and higher,
+`go-wasmcontainers-engine`, `-playground`, `-dashboard`, `-build`, `-compose`,
+`-shell` and `-gpu` are the marks of the `engine`, `playground`, `dashboard`,
+`build`, `compose`, `shell` and `gpu` repositories: the same glyph, smaller and higher,
 over a white name plate — the family's per-repository convention, not a glyph
 of their own.
 
 ## Formats
 
-For each of `go-wasmcontainers`, `go-wasmcontainers-engine`,
-`go-wasmcontainers-playground` and `go-wasmcontainers-dashboard`:
+For each of `go-wasmcontainers` and its repository marks (`-engine`,
+`-playground`, `-dashboard`, `-build`, `-compose`, `-shell`, `-gpu`):
 
 - **SVG** — `svg/color`, `svg/white` (white, transparent), `svg/black` (black, transparent)
 - **PNG** 16→1024 px, 3 variants — `png/<variant>/<size>/`
@@ -36,7 +36,7 @@ For each of `go-wasmcontainers`, `go-wasmcontainers-engine`,
 - **GitHub avatar** 512 px — `avatar/`
 - **Social preview** 1280×640 (repo banner) — `social/`
 
-`check/kit.py` counts the whole matrix, for all four subjects, on every pull
+`check/kit.py` counts the whole matrix, for all eight subjects, on every pull
 request.
 
 ---
